@@ -181,11 +181,9 @@ else:
 
 
 def interchange_first_last(list):
-    """This function takes a list as input and interchanges the first and last elements of the list."""
     list[0], list[-1] = list[-1], list[0]
     return list
 
-# Example usage
 my_list = [1, 2, 3, 4, 5]
 print(interchange_first_last(my_list))
 
@@ -194,11 +192,9 @@ print(interchange_first_last(my_list))
 
 
 def swap_elements(list, index1, index2):
-    """This function swaps the elements at index1 and index2 in the given list."""
     list[index1], list[index2] = list[index2], list[index1]
     return list
 
-# Example usage
 my_list = [1, 2, 3, 4, 5]
 print(swap_elements(my_list, 1, 3))
 
@@ -324,52 +320,4 @@ print(row_sums)
 my_list = [1, 2, 3, 4, 5]
 result = [(num, num**3) for num in my_list]
 print(result)
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
 
